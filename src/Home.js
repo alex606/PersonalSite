@@ -1,9 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Header from './Header';
-import {Switch, Route } from 'react-router';
-import About from './About';
-import Contact from './Contact';
 
 const Home = () => {
     return (
