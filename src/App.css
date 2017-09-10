@@ -48,6 +48,14 @@ li a:hover {
   color: white;
 }
 
+#footer {
+  background-color: #333;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
