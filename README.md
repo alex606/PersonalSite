@@ -1,2 +1,2 @@
 Currently deployed using gh-pages
-https://alex606.github.io/PersonalSite/
+https://alex606.github.io/PersonalSite
