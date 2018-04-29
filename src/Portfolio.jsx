@@ -1,5 +1,7 @@
 import React from 'react';
 import componentStyles from './styles/componentStyles';
+import Resume from './components/Resume';
+
 
 const Portfolio = () => (
   <div style={componentStyles.bodyStyle}>
@@ -11,6 +13,7 @@ const Portfolio = () => (
         I have experience in using front-end technologies such as React, and back-end technologies
         such as C#, Java, and NodeJS.
     </p>
+    <Resume />
   </div>
 );
 export default Portfolio;

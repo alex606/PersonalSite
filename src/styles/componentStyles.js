@@ -25,6 +25,7 @@ const componentStyles = {
     marginTop: '20px',
     height: '40px',
     borderRadius: '6px',
+    marginBottom: '10px',
   },
   profilePictureStyle: {
     borderRadius: '50%',
