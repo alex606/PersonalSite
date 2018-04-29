@@ -24,6 +24,7 @@ class TextInput extends Component {
           type={this.state.type}
           name={this.state.name}
           id={this.state.id}
+          required
         />
       </div>);
   }
