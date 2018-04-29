@@ -12,14 +12,13 @@ const componentStyles = {
   bodyStyle: {
     textAlign: 'center',
     backgroundColor: 'Grey',
-    width: '1000px',
+    maxWidth: '1000px',
     margin: 'auto',
   },
   textStyle: {
     fontSize: '20px',
-    color: 'light-grey',
-    marginLeft: '50px',
-    marginRight: '50px',
+    marginLeft: '10px',
+    marginRight: '10px',
   },
   buttonStyle: {
     fontSize: '20px',
