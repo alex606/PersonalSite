@@ -20,12 +20,19 @@ const componentStyles = {
     marginLeft: '10px',
     marginRight: '10px',
   },
+  formInputStyle: {
+    height: '30px',
+    width: '300px',
+    fontSize: '20px',
+    marginBottom: '2px',
+  },
   buttonStyle: {
     fontSize: '20px',
     marginTop: '20px',
     height: '40px',
     borderRadius: '6px',
     marginBottom: '10px',
+    width: '200px',
   },
   profilePictureStyle: {
     borderRadius: '50%',

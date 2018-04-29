@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import componentStyles from '../styles/componentStyles';
 
 class TextInput extends Component {
   constructor(props) {
@@ -10,16 +9,15 @@ class TextInput extends Component {
       name: props.name,
       type: props.type,
       id: props.id,
-      label: props.label,
-      htmlFor: props.htmlFor,
+      style: props.style,
     };
   }
 
   render() {
     return (
-      <div style={componentStyles.textStyle}>
-        <label htmlFor={this.state.htmlFor}>{this.state.label}</label>
+      <div>
         <input
+          style={this.state.style}
           placeholder={this.state.placeholder}
           type={this.state.type}
           name={this.state.name}
@@ -35,11 +33,6 @@ TextInput.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  htmlFor: PropTypes.string,
-};
-TextInput.defaultProps = {
-  htmlFor: '',
 };
 export default TextInput;
 
