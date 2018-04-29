@@ -3,8 +3,8 @@ import resumePdf from '../assets/resume.pdf';
 import componentStyles from '../../src/styles/componentStyles';
 
 const resumeStyle = {
-  height: '1150px',
-  width: '900px',
+  height: '1080px',
+  width: '800px',
 };
 
 const buttonDisplayText = buttonState => (buttonState ? 'Hide Resume' : 'Display Resume');

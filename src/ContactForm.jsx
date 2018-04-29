@@ -7,8 +7,9 @@ const ContactForm = () => (
   <div style={componentStyles.bodyStyle}>
     <p style={componentStyles.headerStyle}>Contact Me</p>
     <p style={componentStyles.textStyle}>Want to reach out to me?
-    Feel free to send an email to alexwu606 |at| gmail |dot| com,
-    or send a message to me using the contact form below.
+    Feel free to send an email to alexwu606 |at| gmail |dot| com.
+    You can also message me on LinkedIn or Github.
+    Or send a message to me using the contact form below.
     </p>
     <form action="https://formspree.io/alexwu606@gmail.com" method="POST" >
       <TextInput
