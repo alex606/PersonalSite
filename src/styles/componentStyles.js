@@ -39,5 +39,8 @@ const componentStyles = {
     marginTop: '10px',
     marginBottom: '10px',
   },
+  lineBreakStyle: {
+    // In case I want to style all linebreaks at some point
+  },
 };
 export default componentStyles;
