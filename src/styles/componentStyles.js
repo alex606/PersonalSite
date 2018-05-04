@@ -38,6 +38,7 @@ const componentStyles = {
     borderRadius: '6px',
     marginBottom: '10px',
     width: '200px',
+    border: '3px solid #444',
   },
   profilePictureStyle: {
     borderRadius: '50%',
