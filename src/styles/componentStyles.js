@@ -6,14 +6,19 @@ const componentStyles = {
     color: 'black',
   },
   alignElementsCenter: {
-    display: 'flex',
-    alignItems: 'center',
+    // display: 'flex',
+    // alignItems: 'center',
   },
   bodyStyle: {
     textAlign: 'center',
     backgroundColor: 'Grey',
     maxWidth: '1000px',
     margin: 'auto',
+    marginTop: '10px',
+    marginBottom: '10px',
+    borderRadius: '5px',
+    borderStyle: 'solid',
+    // marginRight: '-50%',
   },
   textStyle: {
     fontSize: '20px',

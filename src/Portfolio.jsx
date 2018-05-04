@@ -8,8 +8,7 @@ import gj2015 from './assets/gj2015.JP2';
 import gj2016 from './assets/gj2016.JP2';
 
 const textDisplay = {
-  height: '300px',
-  minWidth: '400px',
+  // minWidth: '400px',
   marginTop: '10px',
   marginBottom: '10px',
 };
