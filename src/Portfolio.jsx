@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs, Row, Col, Collapse } from 'antd';
+import { Tabs, Row, Col, Collapse, Table } from 'antd';
 import componentStyles from './styles/componentStyles';
 import Resume from './components/Resume';
 import ImageHandler from './components/ImageHandler';
@@ -7,13 +7,53 @@ import ImageModal from './components/ImageModal';
 import hthon from './assets/hthon.JP2';
 import gj2015 from './assets/gj2015.JP2';
 import gj2016 from './assets/gj2016.JP2';
-
+import { dataSources } from './TableData';
 
 const { TabPane } = Tabs;
 const { Panel } = Collapse;
 
+
+// The realization hit when I was improperly using the Collapse component, but I'm too lazy to refactor everything...
 const Portfolio = () => (
   <div >
+    <Collapse>
+      <Panel header="Technical Skills" >
+        <Row gutter={16} type="flex" justify="space-around" align="middle" >
+          <Col span={16}>
+            <Tabs defaultActiveKey="1">
+              <TabPane tab="Job Capabilities" key="1" >
+                <Table
+                  pagination={false}
+                  dataSource={dataSources.positionDataSources}
+                  columns={dataSources.positionsColumns}
+                />
+              </TabPane>
+              <TabPane tab="Programming Languages" key="2" >
+                <Table
+                  pagination={false}
+                  dataSource={dataSources.languageSources}
+                  columns={dataSources.languageColumns}
+                />
+              </TabPane>
+              <TabPane tab="CI / CD Tools" key="3" >
+                <Table
+                  pagination={false}
+                  dataSource={dataSources.deploymentTools}
+                  columns={dataSources.deploymentColumns}
+                />
+              </TabPane>
+              <TabPane tab="Other Tools" key="4" >
+                <Table
+                  pagination={false}
+                  dataSource={dataSources.tools}
+                  columns={dataSources.toolsColumns}
+                />
+              </TabPane>
+            </Tabs>
+          </Col>
+        </Row>
+      </Panel>
+    </Collapse>
     <Collapse>
       <Panel header="Portfolio" >
         <Row gutter={16} type="flex" justify="space-around" align="middle" >
