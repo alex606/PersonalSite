@@ -71,11 +71,11 @@ export const dataSources = {
     proficiency: get4Icons(),
   }, {
     key: '2',
-    position: 'BackEnd Develoepr',
+    position: 'BackEnd Developer',
     proficiency: get3Icons(),
   }, {
     key: '3',
-    position: 'FrontEnd Develoepr',
+    position: 'FrontEnd Developer',
     proficiency: get2Icons(),
   }],
   positionsColumns: [{

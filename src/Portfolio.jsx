@@ -18,6 +18,13 @@ const Portfolio = () => (
   <div >
     <Collapse>
       <Panel header="Technical Skills" >
+        <Row gutter={16} type="flex" justify="space-around" align="middle">
+          <Col span={16}>
+            <p style={componentStyles.bodyStyle}>Sometimes I get questions from recruiters asking me to rate myself in certain tech areas.
+            While most of my career so far has been focused on automated software testing, I am a capable developer in other parts of the stack as well.
+            </p>
+          </Col>
+        </Row>
         <Row gutter={16} type="flex" justify="space-around" align="middle" >
           <Col span={16}>
             <Tabs defaultActiveKey="1">
