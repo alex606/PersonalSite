@@ -78,7 +78,7 @@ const Portfolio = () => (
       </Panel>
     </Collapse>
     <Collapse>
-      <Panel header="Unity Projects">
+      <Panel header="Side Projects">
         <Row gutter={16} type="flex" justify="space-around" align="middle" >
           <Col span={16}>
             <p style={componentStyles.bodyStyle}>

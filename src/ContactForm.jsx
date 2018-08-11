@@ -38,11 +38,13 @@ class ContactForm extends Component {
           <Row gutter={16} type="flex" justify="space-around" align="middle" >
             <Col span={16}>
               <p style={componentStyles.bodyStyle} >Want to reach out to me?
-      Feel free to send an email to alexwu606 |at| gmail |dot| com.
-      You can also message me on LinkedIn {<Icon type="linkedin" />} or Github {<Icon type="github" />}.
-                                              Or send a message to me using the contact form below.
+          Feel free to send an email to alexwu606 |at| gmail |dot| com.
+      You can also message me on LinkedIn {<Icon type="linkedin" />} or Github {<Icon type="github" />} or send a message to me using the contact form below.
               </p>
-              <br></br>
+            </Col>
+            </Row>
+            <Row gutter={16} type="flex" justify="space-around" align="middle" >
+            <Col span={8}>
               <Form onSubmit={this.handleSubmit}>
                 <Form.Item  >
                   {getFieldDecorator('emailAddress', {
