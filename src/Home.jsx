@@ -22,7 +22,7 @@ const Home = () => (
         <Row gutter={16} type="flex" justify="space-around" align="middle" >
           <Col span={16}>
             <div style={componentStyles.bodyStyle}>Software Engineer with {getMyYearsOfExperience()} years of
-        pactical experience in automated software testing.
+        practical experience in automated software testing.
         Experienced at working in teams utilizing agile workflow.
         Knowledgeable at practical application development.
             </div>
